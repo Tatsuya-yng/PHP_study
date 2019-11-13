@@ -125,3 +125,19 @@ foreach($animals as $animals) {
     echo "要素は" . $animals;
     echo "\n";
 }
+
+
+// $a と $b が等しくないときにtrue
+var_dump($a == $b);
+    echo "\n";
+    
+var_dump($a != $b);
+    echo "\n";
+    
+
+$a = 3;
+$b = 3;
+$c = "3";
+var_dump($a == $b);
+    echo "\n";
+    
